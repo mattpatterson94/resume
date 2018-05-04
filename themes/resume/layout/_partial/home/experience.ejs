@@ -1,0 +1,16 @@
+<section id="writing">
+  <span class="h1">Experience</span>
+
+  <% var show_posts = page.posts.sort('date', 'desc') %>
+
+  <% show_posts.each(function(post, i){ %>
+    <div class="post-item page-break">
+      <h2><%= post.position %></h2>
+      <h4><a target="_blank" href="<%= post.url %>"><%= post.title %></a> <span> | <%= post.duration %></span></h4>
+
+      <div class="content" itemprop="articleBody">
+        <%- post.content %>
+      </div>
+    </div>
+  <% }); %>
+</section>

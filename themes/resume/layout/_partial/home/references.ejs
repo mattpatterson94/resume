@@ -1,0 +1,16 @@
+<% if (site.data.references) { %>
+<section class="page-break" id="references">
+  <span class="h1">References</span>
+
+  <ul class="list">
+    <% for(var i in site.data.references){ %>
+      <li>
+        <strong><%= site.data.references[i]['name'] %></strong><br>
+        <%= site.data.references[i]['position'] %><br>
+        <%= site.data.references[i]['email'] %><br>
+        <%= site.data.references[i]['contact'] %>
+      </li>
+    <% } %>
+  </ul>
+</section>
+<% } %>

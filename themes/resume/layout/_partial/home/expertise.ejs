@@ -1,0 +1,11 @@
+<% if (site.data.expertise) { %>
+<section class="page-break" id="expertise">
+  <span class="h1">Expertise</span>
+
+  <ul class="list">
+    <% for(var i in site.data.expertise){ %>
+      <li><%= site.data.expertise[i] %></li>
+    <% } %>
+  </ul>
+</section>
+<% } %>

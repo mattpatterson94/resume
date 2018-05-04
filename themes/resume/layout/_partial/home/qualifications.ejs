@@ -1,0 +1,16 @@
+<% if (site.data.qualifications) { %>
+<section id="qualifications">
+  <span class="h1">Qualifications</span>
+
+  <% for(var obj in site.data.qualifications){ %>
+    <div class="post-item page-break">
+      <h2><%= site.data.qualifications[obj]['title'] %></h2>
+      <h4><%= site.data.qualifications[obj]['school'] %> <span> | <%= site.data.qualifications[obj]['duration'] %></span></h4>
+
+      <div class="content" itemprop="articleBody">
+        <%- site.data.qualifications[obj]['description'] %>
+      </div>
+    </div>
+  <% } %>
+</section>
+<% } %>
