@@ -1,0 +1,15 @@
+bachelor:
+  title: Bachelor of Information Technology (Advanced)
+  school: Griffith University
+  duration: March 2012 - December 2014
+  description: After receiving direct entry into Griffith University via the GUEST program (completing a course while still at school), I enrolled into Bachelor of Information Technology, majoring in Software Development. During my studies here, I was awarded as a high achiever, giving me the opportunity to move into Bachelor of Information Technology (Advanced with Honours). I accepted this opportunity, which meant every semester I had to complete an additional advanced assessment.
+certificate:
+  title: Certificate IV Information Technology (Multimedia)
+  school: Prime Learning
+  duration: June 2009 - November 2010
+  description: During my school years, I applied to complete a Certificate IV in Information Technology (Multimedia) instead of one of my subjects. While completing this, I was placed into a workplace to gain industry experience and partipate in real client work. This allowed me to learn about slicing websites in PSD and converting to HTML/CSS.
+school:
+  title: Year 12 Certificate
+  school: Miami State High School
+  duration: '2007 - 2011'
+  description: Completed Year 12 at Miami State High School, achieving an OP 6. I achieved top student in my Information Technology class for both Grade 11 and 12.
