@@ -1,10 +1,10 @@
 <% if (site.data.languages) { %>
 <section class="page-break" id="languages">
-  <span class="h1">Languages/Frameworks</span>
+  <span class="h1">Technical Skills</span>
 
   <ul class="list">
     <% for(var i in site.data.languages){ %>
-      <li><%= site.data.languages[i] %></li>
+      <li><%- site.data.languages[i] %></li>
     <% } %>
   </ul>
 </section>

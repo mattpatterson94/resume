@@ -1,0 +1,16 @@
+<% if (site.data.languages) { %>
+<section class="page-break" id="languages">
+  <span class="h1">Side Projects</span>
+
+  <% for(var i in site.data.projects){ %>
+    <div class="post-item page-break">
+      <h2><a target="_blank" href="<%= site.data.projects[i].url %>"><%= site.data.projects[i].name %></a></h2>
+      <h4><%= site.data.projects[i].skills %></h4>
+
+      <div class="content" itemprop="articleBody">
+        <%- site.data.projects[i].description %>
+      </div>
+    </div>
+  <% } %>
+</section>
+<% } %>

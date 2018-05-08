@@ -1,6 +1,6 @@
 <% if (site.data.qualifications) { %>
 <section id="qualifications">
-  <span class="h1">Qualifications</span>
+  <span class="h1">Education</span>
 
   <% for(var obj in site.data.qualifications){ %>
     <div class="post-item page-break">
@@ -8,7 +8,11 @@
       <h4><%= site.data.qualifications[obj]['school'] %> <span> | <%= site.data.qualifications[obj]['duration'] %></span></h4>
 
       <div class="content" itemprop="articleBody">
-        <%- site.data.qualifications[obj]['description'] %>
+        <ul>
+          <% for(var i in site.data.qualifications[obj]['description']){ %>
+            <li><%- site.data.qualifications[obj]['description'][i] %></li>
+          <% } %>
+        </ul>
       </div>
     </div>
   <% } %>

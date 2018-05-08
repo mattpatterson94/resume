@@ -1,10 +1,10 @@
 <% if (site.data.interests) { %>
 <section class="page-break" id="interests">
-  <span class="h1">Interests</span>
+  <span class="h1">Interests/Hobbies</span>
 
   <ul class="list">
     <% for(var i in site.data.interests){ %>
-      <li><%= site.data.interests[i] %></li>
+      <li><%- site.data.interests[i] %></li>
     <% } %>
   </ul>
 </section>
