@@ -3,7 +3,7 @@ title: Freelance
 duration: 'January 2017 - Present'
 position: 'Web Developer'
 date: '2018-01-05'
-url: http://mattpatterson.xyz
+url: https://mattpatterson.xyz
 ---
 Building side projects and contracting with a Design Agency called [Bona Fide Design Co](https://www.bonafidedesignco.com) to offer web solutions on their behalf.
 
