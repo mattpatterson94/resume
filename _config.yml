@@ -5,7 +5,7 @@
 # Site
 title: Matt Patterson
 subtitle: Web Developer
-description: Ambitious problem solver and dedicated team player at your service! My name is Matt Patterson and I am a web/applications developer, currently based in Gold Coast, Australia. I am looking to advance my career by seeking employment Australia-wide, striving to work for inspiring companies using modern technologies and where my abilities can be recognised. I am a logical thinker and have over 5 years experience in creating complex solutions for companies across the nation.
+description: I am a <strong>web developer</strong> based in Gold Coast, Australia with <strong>5+ years experience</strong> in the industry. I am seeking potential job opportunities in <strong>Melbourne</strong> where I can advance in my career.
 keywords: resume
 author: Matt Patterson
 language: en
@@ -81,4 +81,6 @@ theme_config:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:mattpatterson94/resume.git
+  branch: gh-pages
