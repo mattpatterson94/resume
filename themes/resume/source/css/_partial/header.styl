@@ -86,12 +86,7 @@
 
 @media screen and (max-width: 480px)
   #header #title
-    display: table
-    margin-right: 5rem
     min-height: $logo-height
-    h1
-      display: table-cell
-      vertical-align: middle
 
   #header #nav
     ul
@@ -123,4 +118,15 @@
   a
     display inline-block
     padding: 0.2rem 0
-    width: 32%
+
+@media screen and (max-width: 480px)
+  .social-links
+    a
+      margin-left: 0.5rem
+      span
+        display: none
+
+@media screen and (min-width: 481px)
+  .social-links
+    a
+      width: 32%
