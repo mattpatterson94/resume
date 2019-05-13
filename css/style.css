@@ -695,13 +695,7 @@ body {
 }
 @media screen and (max-width: 480px) {
   #header #title {
-    display: table;
-    margin-right: 5rem;
     min-height: 50px;
-  }
-  #header #title h1 {
-    display: table-cell;
-    vertical-align: middle;
   }
   #header #nav ul a:hover {
     background: none;
@@ -731,7 +725,19 @@ body {
 .social-links a {
   display: inline-block;
   padding: 0.2rem 0;
-  width: 32%;
+}
+@media screen and (max-width: 480px) {
+  .social-links a {
+    margin-left: 0.5rem;
+  }
+  .social-links a span {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) {
+  .social-links a {
+    width: 32%;
+  }
 }
 #header-post {
   position: fixed;
@@ -1530,7 +1536,12 @@ code {
 .list li {
   float: left;
   padding: 0.1rem 0;
-  width: 32%;
+  width: 50%;
+}
+@media screen and (min-width: 481px) {
+  .list li {
+    width: 32%;
+  }
 }
 .list:after {
   clear: both;
