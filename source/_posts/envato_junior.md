@@ -1,7 +1,7 @@
 ---
 title: Envato
-duration: 'July 2018 - Present'
-position: 'Senior Engineer'
+duration: 'July 2018 - January 2019'
+position: 'Engineer'
 date: '2018-07-31'
 url: https://envato.com
 ---

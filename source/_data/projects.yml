@@ -1,15 +1,10 @@
 oppyfinder:
   name: Oppyfinder
   url: http://oppyfinder.com
-  skills: Ruby, Ruby on Rails, CI, API, Stimulus, Webpack
-  description: A directory list of Op Shops Australia-wide built using <strong>Ruby on Rails</strong> which regularly scrapes Google Maps Place API for new listings.
+  skills: React, React Native, TypeScript, Ruby, Ruby on Rails, GraphQL
+  description: A directory list of Op Shops Australia-wide, built as a React Native mobile application, with data feed through a custom <strong>Ruby on Rails</strong> CMS which regularly scrapes Google Maps Place API for new listings.
 tokyochuko:
   name: Tokyo Chuko
-  skills: PHP, Wordpress, Blade, Webpack, jQuery
+  skills: TypeScript, Gatsby, GraphQL
   url: https://www.tokyochuko.com
-  description: A community-driven directory for Secondhand stores in Japan. Built as a <strong>custom wordpress theme</strong> using the sage boilerplate.
-mpforms:
-  name: MPForms
-  skills: PHP, Wordpress, Webpack, Stimulus
-  url: https://www.bonafidedesign.com/get-a-quote
-  description: <strong>Open-source form plugin</strong> for Wordpress which allows for fully customisable forms, with the ability to hot-plug modern javascript technologies (React, Stimulus, Angular).
+  description: A community-driven directory of secondhand and vintage stores in Japan. Built as a static site using Gatsby, deployed to Netlify.

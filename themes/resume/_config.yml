@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: https://mattpatterson.xyz
+projects_url: https://mattdoesdev.com
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -31,12 +31,12 @@ social_links:
     url: tel:61403067489
   envelope:
     fa: fas
-    handle: matt@mattpatterson.xyz
-    url: mailto:matt@mattpatterson.xyz
+    handle: hey@mattdoesdev.com
+    url: mailto:hey@mattdoesdev.com
   link:
     fa: fas
-    handle: mattpatterson.xyz
-    url: http://mattpatterson.xyz
+    handle: mattdoesdev.com
+    url: https://mattdoesdev.com
   github:
     fa: fab
     handle: mattpatterson94
@@ -148,4 +148,4 @@ baidu_analytics:
 # Fill in you Gravatar user id / email if you want to use your gravatar as the
 # logo and/or favicons of you website.
 gravatar:
-  email: matt.patterson94@gmail.com
+  email: matt.patterson@hey.com
