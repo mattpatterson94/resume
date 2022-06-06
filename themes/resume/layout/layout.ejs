@@ -7,6 +7,7 @@
     <% } %>
     <div class="content index my4">
         <% if (!is_post()) { %>
+          <%- partial('_partial/viewonline') %>
           <%- partial('_partial/header') %>
           <%- partial('_partial/social') %>
         <% } %>
